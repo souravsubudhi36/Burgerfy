@@ -1,0 +1,212 @@
+.burgertop{
+  display : block;
+}
+.trayofingred{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 2px;
+  background: rgba(255,255,255,0.3);
+}
+.trayofingred li {
+  display: block;
+  width: 40%;
+  margin-top: 5px;
+  background: dodgerblue;
+}
+
+.burgerinside{
+  width: 100%;
+  border: 1px dotted rgba(0,0,0,0.2);
+  min-height: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+}
+
+.trayofingred .Salad {
+  background: url('/salad.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.trayofingred .Cheese {
+  background: url('/cheese.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.trayofingred .Bacon {
+  background: url('/bacon.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.trayofingred .Meat {
+  background: url('/meat.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.trayofingred .Onion {
+  background: url('/onion.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.trayofingred .Tomato {
+  background: url('/tomato.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.trayofingred .Cutlet {
+  background: url('/potato.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.trayofingred .Sauce {
+  background: url('/sauce.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.trayofingred .Mayo {
+  background: url('/mayo.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.trayofingred .Barbeque {
+  background: url('/barbeque.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100%;
+  padding-top: 100%;
+}
+.maintext{
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  padding: 0 80px;
+  margin-bottom: 20px;
+}
+.maintext div {
+  display: inline-block;
+}
+.buttonaddtocart{
+  background: dodgerblue;
+  outline : none;
+  border : none;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 10px;
+  font-size: 19px;
+  float:right;
+  margin-top:5px;
+  cursor : pointer;
+}
+
+.buttonaddtocart:active{
+  background:#1564b2;
+  outline : none;
+}
+
+.buttonaddtocart:disabled{
+  background: #737373
+}
+.traymain {
+
+  padding: 0;
+}
+.hideit {
+  display : block;
+}
+.hideitopp{
+  display: none;
+}
+
+.burgerbody {
+  z-index:-1
+}
+
+#togglebutton {
+  background: url('/toggle.png');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 100%;
+
+}
+.hidemenu {
+display : none;
+}
+@media only screen and (max-width : 992px){
+  .maintext{
+    font-size: 20px;
+    padding: 0 50px;
+  }
+  .buttonaddtocart{
+    margin-top : 2px;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  .hideit {
+    display : none;
+  }
+  .hideitopp{
+    display:block;
+
+
+    padding-left: 10px;
+  }
+  .maintext{
+    font-size: 18px;
+    padding: 0 40px;
+  }
+  .buttonaddtocart{
+    margin-top : 0px;
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+  .maintext{
+    font-size:15px;
+    padding: 0 15px;
+  }
+  .buttonaddtocart{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:320px){
+  .maintext{
+
+    padding: 0 0px;
+  }
+}

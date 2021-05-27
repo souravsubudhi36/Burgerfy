@@ -1,0 +1,134 @@
+.orderdiv{
+
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  /* border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; */
+  /* padding: 20px; */
+  margin-bottom: 30px;
+}
+.orderdivin {
+  padding: 20px;
+  background: rgba(255,255,255,0.8);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.ordertext {
+  font-size : 25px;
+  color : black;
+  text-align: left;
+}
+.arrowdiv{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: rgba(255,255,255,0.4);
+  height : 40px;
+  /* margin-bottom: 40px; */
+  z-index: 40;
+
+}
+.heading {
+  margin-bottom: 20px;
+}
+
+.chevron {
+  color : black;
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  cursor : pointer;
+}
+
+.ttlprice {
+  line-height: 40px;
+  font-size : 20px;
+}
+
+.tac {
+  text-align: center;
+}
+
+.padleft {
+  padding-left: 30px;
+}
+
+.addressbox{
+  margin-top: 10px;
+  max-height : 0;
+  padding: 0 3%;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.maintextorder{
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.extend {
+  margin-top: 30px;
+  height : auto;
+  max-height : 250px;
+}
+
+.spinnerdiv{
+  text-align: center;
+  width: 100%;
+  height : 200px;
+}
+.spinnerdivm{
+  text-align: center;
+  width: 100%;
+  height : 800px;
+}
+
+.sdf {
+
+  margin-top: 10%;
+  margin-bottom: 75%;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.aaa{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 767px){
+  .ordertext {
+    font-size : 20px;
+  }
+
+}
+
+@media only screen and (max-width: 475px){
+  .ordertext {
+    font-size : 15px;
+  }
+  .orderlettering {
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+  .padleft {
+    padding-left: 40px;
+  }
+
+}
+
+
+
+
+/*
+<div>Delivery Address</div>
+<div>{order.address.address}</div>
+<div>{order.address.city}</div>
+<div>{order.address.state}</div>
+<div>{order.address.pincode}</div>
+<div>{order.address.phone}</div>
+
+<div>Total Price : {order.price}</div> */

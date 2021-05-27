@@ -1,0 +1,119 @@
+.cartbutton {
+  position: fixed;
+  bottom : 100px;
+  right : 70px;
+  background: red;
+  color: white;
+  border-radius: 100%;
+  padding : 10px;
+}
+
+
+
+#topbar {
+  background: rgba(255,255,255,0.4) !important;
+
+}
+.extendmargin{
+  margin-bottom: 90px;
+}
+#navbar {
+  margin-bottom: 40px;
+}
+
+
+.hideitnav{
+  display: none !important;
+}
+.hideitnavopp{
+  display : flex !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+.hideitnavopp .nav-link{
+  color: white !important;
+  font-size: 18px !important;
+}
+.hideitnavopp .navbar-brand {
+  width: 0px;
+  margin-right:0;
+  overflow: hidden;
+  transition: 0.6s;
+  color : white !important;
+}
+.nav-expand-nav {
+  width: 100%;
+  transition: 0.6s;
+}
+.hideitnavopp .nav-store {
+  float:left !important;
+}
+.hideitnavopp .nav-builder {
+  margin: 0 auto !important;
+}
+.hideitnavopp .nav-cart {
+  float:right !important;
+}
+
+.sticky .nav-expand-nav {
+  width: 220px;
+}
+
+
+.expandbrand{
+  width: 85px !important;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+.abchide {
+  display : none !important;
+}
+.abchideopp {
+  display: list-item !important;
+}
+
+
+.footer {
+  background: url('/footer.jpg') center center;
+  background-size: cover;
+  width: 100%;
+  height : 100px;
+  margin-bottom: 0;
+  margin-top: 120px;
+}
+
+.footertext{
+  padding-top: 30px;
+  padding-right: 10px;
+  font-size: 20px;
+  line-height: 25px;
+  display: block;
+  float: right;
+  color: white;
+}
+.footertext span {
+  font-size: 15px;
+}
+.footertext .fas {
+  color: salmon;
+}
+
+@media only screen and (min-width: 600px){
+  .abchideopp {
+    display: none !important;
+  }
+  .abchide {
+    display : flex !important;
+  }
+}
